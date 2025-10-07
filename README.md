@@ -52,9 +52,8 @@ python main.py
 python -m venv venv
 source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate     # Windows
-
-# 依存ライブラリをインストール
 ```
+# 依存ライブラリをインストール
 ```zsh
 pip install -r requirements.txt
 ```
@@ -62,7 +61,7 @@ pip install -r requirements.txt
 ```zsh
 python main.py
 ```
+
     初回起動時に data/vault.enc が自動生成されます
 
     マスターパスワードでデータを暗号化・復号します
-```
