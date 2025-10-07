@@ -16,6 +16,36 @@
 
 ## ⚡ 起動方法
 
+```python
+# 1. .gitignore を作成
+# 内容:
+venv/
+__pycache__/
+*.pyc
+data/vault.enc
+
+# 2. Git初期化＆コミット
+git init
+git add .
+git commit -m "Initial commit - MVP password manager"
+
+# 3. GitHubリポジトリを作成
+# GitHubで新しいリポジトリ作成後、URLをコピー
+
+# 4. リモートを追加＆プッシュ
+git branch -M main
+git remote add origin <your-repo-url>
+git push -u origin main
+
+# 5. クローンして利用する場合
+git clone <your-repo-url>
+cd password_manager
+python -m venv venv
+source venv/bin/activate  # Mac/Linux
+pip install -r requirements.txt
+python main.py
+
+
 1. 仮想環境を作成・有効化
 
 ```bash
