@@ -48,8 +48,21 @@ python main.py
 
 1. 仮想環境を作成・有効化
 
-```bash
+```zsh
 python -m venv venv
 source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate     # Windows
+
+# 依存ライブラリをインストール
+```
+```zsh
+pip install -r requirements.txt
+```
+# アプリを起動
+```zsh
+python main.py
+```
+    初回起動時に data/vault.enc が自動生成されます
+
+    マスターパスワードでデータを暗号化・復号します
 ```
