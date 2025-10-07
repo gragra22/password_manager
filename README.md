@@ -14,8 +14,7 @@
 
 ---
 
-## ⚡ 起動方法
-
+⚙️ GitHubに上げる手順
 ```python
 # 1. .gitignore を作成
 # 内容:
@@ -44,6 +43,7 @@ python -m venv venv
 source venv/bin/activate  # Mac/Linux
 pip install -r requirements.txt
 python main.py
+```
 
 
 1. 仮想環境を作成・有効化
@@ -52,3 +52,4 @@ python main.py
 python -m venv venv
 source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate     # Windows
+```
