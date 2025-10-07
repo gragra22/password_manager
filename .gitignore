@@ -1,0 +1,9 @@
+# 仮想環境
+venv/
+
+# Pythonキャッシュ
+__pycache__/
+*.pyc
+
+# 暗号化データ
+data/vault.enc
